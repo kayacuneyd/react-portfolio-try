@@ -6,6 +6,7 @@ import Footer from "./components/footer";
 import About from "./pages/about-us";
 import Contact from "./pages/contact";
 import Home from "./pages/home";
+import NoPage from "./pages/no-page";
 import Container from "react-bootstrap/Container";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
@@ -18,9 +19,11 @@ function App() {
           <Col>
             <Header />
             <Routes>
+              <Route index element={<Home />}></Route>
               <Route path="/" element={<Home />}></Route>
               <Route path="about-us" element={<About />}></Route>
               <Route path="contact" element={<Contact />}></Route>
+              <Route path="*" element={<NoPage />}></Route>
             </Routes>
             <Footer />
           </Col>
