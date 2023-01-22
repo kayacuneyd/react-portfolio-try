@@ -11,3 +11,90 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.light-color,
+#light-color {
+  color: #e0e0e0;
+}
+
+.light-bg,
+#light-bg {
+  background-color: #e0e0e0;
+}
+
+.dark-color {
+  color: #243a4c !important;
+}
+
+.red-color {
+  color: #e5293d !important;
+}
+
+.fistik-bg {
+  background-color: #d0decb !important;
+}
+
+.fistik-color {
+  color: #d0decb !important;
+}
+
+.red-bg {
+  background-color:#e5293d !important;
+}
+
+.dark-bg,
+#dark-bg{
+  background-color: #243a4c !important;
+}
+
+.light-color:hover{
+  background-color: #243a4c !important;
+}
+
+.vh-50{
+  height: 50vh;
+}
+
+.vh-80{
+  height: 80vh;
+}
+
+.vw-50{
+  width: 50vw !important;
+}
+
+.fs-10{
+  font-size: 10rem !important;
+}
+
+.fs-8{
+  font-size: 8rem !important;
+}
+
+.fs-7{
+  font-size: 7rem !important;
+}
+
+.fs-65{
+  font-size: 6.5rem !important;
+}
+
+.fs-55{
+  font-size: 5.5rem !important
+}
+
+.bg-cover{
+  background-position: inherit;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.bg-cover-hero-text{
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+}
